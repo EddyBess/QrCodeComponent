@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;900&display=swap');
+body{
+    background: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+}
+
+
+.Card{
+
+    background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    height: 600px;  
+    border-radius: 15px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.Qr{
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    
+}
+.Title{
+    padding-top: 30px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 900;
+    font-family: Outfit;
+    color:hsl(218, 44%, 22%);
+}
+.SubTitle{
+    padding-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-family: Outfit;
+    color: hsl(220, 15%, 55%);
+}   
